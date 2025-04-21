@@ -1,9 +1,9 @@
 module "role1" {
-  source = "./role1"
+  source = "./modules/role1"
 }
 
 module "role2" {
-  source = "./role2"
+  source = "./modules/role2"
 }
 
 output "timestamp" {
