@@ -6,8 +6,8 @@ module "role2" {
   source = "./role2"
 }
 
-output "root" {
-  value = "root"
+output "timestamp" {
+  value = timestamp()
 }
 
 output "role1" {
