@@ -7,7 +7,7 @@ module "role2" {
 }
 
 output "timestamp" {
-  value = timestamp()
+  value = "${timestamp()}-111"
 }
 
 output "role1" {
